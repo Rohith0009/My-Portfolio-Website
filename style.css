@@ -1,0 +1,27 @@
+body {
+    background: linear-gradient(#07468f 0%, #10e8cf 100%);
+    text-align: center;
+}
+
+.line {
+    height: 6px;
+    background-color: #000000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+img {
+    border-radius: 50%;
+    width: 500px;
+}
+
+h1 {
+   text-shadow: 2px 2px #fca503;
+    font-size: 50px;
+}
+
+p {
+    font-size: 30px;
+    color: #fc1c03;
+    font-family: cursive
+}
