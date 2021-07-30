@@ -31,7 +31,7 @@ h2 {
 
 }
 
-#intro {
+#home    {
     background: linear-gradient(#fca103 0%, #10e8cf 100%);
     height: 550px;
     position: relative
@@ -41,7 +41,32 @@ h2 {
     background: linear-gradient(#07468f 0%, #10e8cf 100%);
     height: 300px;
     font-family: 'Baloo Chettan 2', cursive;
+    display: table;
+    position: relative;
+}
 
+#hobbies {
+    background: linear-gradient(#fc0320 0%, #be03fc 100%);
+    height: 400px;
+    position: relative;
+    display: table;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+#work {
+    background: linear-gradient(#fc0320 0%, #be03fc 100%);
+    height: 400px;
+    position: relative;
+    font-family: 'Baloo Chettan 2', cursive;
+    align-content: center;
+}
+
+#hobbies {
+    background: linear-gradient(#fc0320 0%, #be03fc 100%);
+    height: 400px;
+    position: relative;
+    display: table;
+    font-family: 'Baloo Chettan 2', cursive;
 }
 
 #hobbies {
@@ -55,7 +80,7 @@ h2 {
 .menu {
     list-style: none;
     font-family: 'Source Sans Pro', sans-serif;
-    position: absolute;
+    position: fixed;
     top: 10px;
     right: 30px;
     z-index: 10;
@@ -76,5 +101,3 @@ h2 {
 .links:hover {
     background-color: dodgerblue
 }
-
-
