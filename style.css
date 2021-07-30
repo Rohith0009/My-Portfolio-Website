@@ -1,5 +1,6 @@
 body {
     text-align: center;
+    align-items: center;
 }
 
 .line {
@@ -54,24 +55,28 @@ h2 {
 }
 
 #work {
-    background: linear-gradient(#fc0320 0%, #be03fc 100%);
-    height: 400px;
+    background: linear-gradient(#15c5e8 0%, #be03fc 100%);
+    height: 250px;
+    width: 1502px;
     position: relative;
     font-family: 'Baloo Chettan 2', cursive;
     align-content: center;
+    display: table;
 }
 
-#hobbies {
-    background: linear-gradient(#fc0320 0%, #be03fc 100%);
+#videos {
+    background: linear-gradient(#f7c707 0%, #0753f7 100%);
     height: 400px;
+    width: 1502px;
     position: relative;
     display: table;
     font-family: 'Baloo Chettan 2', cursive;
 }
 
-#hobbies {
+#contact {
     background: linear-gradient(#fc0320 0%, #be03fc 100%);
     height: 400px;
+     width: 1502px;
     position: relative;
     display: table;
     font-family: 'Baloo Chettan 2', cursive;
@@ -99,5 +104,13 @@ h2 {
 }
 
 .links:hover {
-    background-color: dodgerblue
+    background-color: dodgerblue;
+}
+
+.items {
+    font-size: 30px;
+}
+
+.items:hover {
+  background-color: dodgerblue;  
 }
