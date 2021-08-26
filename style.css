@@ -118,3 +118,13 @@ h2 {
 #viewc {
     color: lightgreen;
 }
+
+.contact_1 a{
+    color: white;
+    text-shadow: none;
+    text-decoration: none;
+}
+
+.contact_1 h3{
+    display: inline
+}
