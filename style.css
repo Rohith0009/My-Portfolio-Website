@@ -83,28 +83,27 @@ h2 {
 }
 
 .menu {
-    list-style: none;
     font-family: 'Source Sans Pro', sans-serif;
     position: fixed;
-    top: 10px;
-    right: 30px;
+    top: 0px;
     z-index: 10;
-    cursor: pointer;
+    width: 100%;
+    margin-top: 0px;
+    background-color: white;
 }
 
 .links {
-    float: right;
-    color: #ffffff;
-    padding-top: 5px;
     padding-left: 9px;
     padding-right: 9px;
-    padding-bottom: 9px;
     font-family: cursive;
     font-size: 20px;
+    display: inline;
+    
 }
 
 .links:hover {
-    background-color: dodgerblue;
+    font-size: 25px;
+    text-decoration: underline;
 }
 
 .items {
@@ -126,5 +125,17 @@ h2 {
 }
 
 .contact_1 h3{
-    display: inline
+    display: inline;
+}
+
+#smenu{
+    background-color:deeppink;
+}
+
+#version{
+    font-size: small;
+}
+
+#copy{
+    font-size: small;
 }
