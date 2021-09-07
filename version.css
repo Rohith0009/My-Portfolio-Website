@@ -6,3 +6,9 @@ body{
 .items{
     text-align: left;
 }
+.line {
+    height: 6px;
+    background-color: #000000;
+    width: 70px;
+    margin: 8px auto;
+}
