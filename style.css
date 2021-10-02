@@ -52,6 +52,7 @@ h2 {
     position: relative;
     padding-top: 2%;
     width: 100%;
+    font-family: sans-serif;
 }
 
 #hobbies {
@@ -61,6 +62,7 @@ h2 {
     display: table;
     padding-top: 2%;
     width: 100%;
+    font-family: sans-serif;
 }
 
 #work {
@@ -71,6 +73,7 @@ h2 {
     align-content: center;
     display: table;
     padding-top: 2%;
+    font-family: sans-serif;
 }
 
 #videos {
@@ -80,6 +83,7 @@ h2 {
     position: relative;
     display: table;
     padding-top: 2%;
+    font-family: sans-serif;
 }
 
 #contact {
@@ -88,6 +92,7 @@ h2 {
      width: 100%;
     position: relative;
     display: table;
+    font-family: sans-serif;
 }
 
 .menu {
