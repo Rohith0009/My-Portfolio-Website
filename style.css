@@ -52,6 +52,7 @@ h2 {
     display: table;
     position: relative;
     padding-top: 2%;
+    width: 100%;
 }
 
 #hobbies {
@@ -61,6 +62,7 @@ h2 {
     display: table;
     font-family: 'PT Sans', sans-serif;
     padding-top: 2%;
+    width: 100%;
 }
 
 #work {
