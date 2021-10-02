@@ -48,7 +48,6 @@ h2 {
 #about {
     background: linear-gradient(#07468f 0%, #10e8cf 100%);
     height: 300px;
-    font-family: 'PT Sans', sans-serif;
     display: table;
     position: relative;
     padding-top: 2%;
@@ -60,7 +59,6 @@ h2 {
     height: 320px;
     position: relative;
     display: table;
-    font-family: 'PT Sans', sans-serif;
     padding-top: 2%;
     width: 100%;
 }
@@ -70,7 +68,6 @@ h2 {
     height: 250px;
     width: 100%;
     position: relative;
-    font-family: 'PT Sans', sans-serif;
     align-content: center;
     display: table;
     padding-top: 2%;
@@ -82,7 +79,6 @@ h2 {
     width: 100%;
     position: relative;
     display: table;
-    font-family: 'PT Sans', sans-serif;
     padding-top: 2%;
 }
 
@@ -92,7 +88,6 @@ h2 {
      width: 100%;
     position: relative;
     display: table;
-    font-family: 'PT Sans', sans-serif;
 }
 
 .menu {
