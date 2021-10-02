@@ -52,7 +52,7 @@ h2 {
     position: relative;
     padding-top: 2%;
     width: 100%;
-    font-family: serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 #hobbies {
@@ -62,7 +62,7 @@ h2 {
     display: table;
     padding-top: 2%;
     width: 100%;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 #work {
@@ -73,7 +73,7 @@ h2 {
     align-content: center;
     display: table;
     padding-top: 2%;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 #videos {
@@ -83,7 +83,7 @@ h2 {
     position: relative;
     display: table;
     padding-top: 2%;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 #contact {
@@ -92,7 +92,7 @@ h2 {
      width: 100%;
     position: relative;
     display: table;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .menu {
@@ -188,4 +188,8 @@ h2 {
 
   #videos a{
       font-size: 20px;
+  }
+
+p{
+  font-family: 'Roboto', sans-serif;
   }
