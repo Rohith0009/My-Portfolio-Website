@@ -64,9 +64,9 @@ h2 {
 }
 
 #work {
-    background: linear-gradient(#15c5e8 0%, #be03fc 100%);
+    background: linear-gradient(#e8e515 0%, #be03fc 100%);
     height: 250px;
-    width: 1502px;
+    width: 100%;
     position: relative;
     font-family: 'PT Sans', sans-serif;
     align-content: center;
@@ -77,7 +77,7 @@ h2 {
 #videos {
     background: linear-gradient(#f7c707 0%, #0753f7 100%);
     height: 400px;
-    width: 1502px;
+    width: 100%;
     position: relative;
     display: table;
     font-family: 'PT Sans', sans-serif;
@@ -87,7 +87,7 @@ h2 {
 #contact {
     background: linear-gradient(#12c427 0%, #be03fc 100%);
     height: 300px;
-     width: 1502px;
+     width: 100%;
     position: relative;
     display: table;
     font-family: 'PT Sans', sans-serif;
@@ -159,3 +159,31 @@ h2 {
 .list{
     color: lightgreen;
 }
+
+.banner{
+    color:#000000;
+    background-color: #15c5e8;
+}
+
+
+#videos h3{
+     font-size: 40px;
+}
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+  .iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  #videos a{
+      font-size: 20px;
+  }
