@@ -1,79 +1,78 @@
-.my_nav_bar{
+ .my_nav_bar{
     position: sticky;
     top: 0;
     z-index: 99999;
-}
+ }
 
-
-body {
+ body {
     text-align: center;
     align-items: center;
-}
+ }
 
-.line {
+ .line {
     height: 6px;
     background-color: #000000;
     width: 70px;
     margin: 8px auto;
-}
+ }
 
-#profileimg {
+ #profileimg {
     border-radius: 50%;
     width: 300px;
     margin-bottom: 50px;
     border-style: solid;
     border-color: black;
     border-width: 2px;
-}
+ }
 
-h1 {
+ h1 {
     text-shadow: 2px 2px #6bfc03;
     font-size: 50px;
-}
+ }
 
-p {
+ p {
     font-size: 30px;
     font-family: cursive;
-}
+ }
 
-h2 {
+ h2 {
     font-size: 50px;
-}
+ }
 
-#home-s    {
+ #home-s    {
     background: linear-gradient(#fca103 0%, #10e8cf 100%);
     height: 550px;
     position: relative;
-}
+ }
 
-#about {
+ #about {
     background: linear-gradient(#ff8f6b 0%, #dddddd 100%);
     display: table;
     position: relative;
     padding-top: 19px;
     width: 100%;
     font-family: 'Roboto', sans-serif;
-}
+ }
 
-#hobbies {
+ #hobbies {
     background: linear-gradient(#fc0320 0%, #be03fc 100%);
     position: relative;
     display: table;
     padding-top: 19px;
     width: 100%;
     font-family: 'Roboto', sans-serif;
-}
+ }
 
-#skills {
+ #skills {
     background: linear-gradient(#03fc94 0%, #fc6703 100%);
     position: relative;
     display: table;
     padding-top: 19px;
     width: 100%;
     font-family: 'Roboto', sans-serif;
-}
+ }
 
-#work {
+ #work {
     background: linear-gradient(#68D9FF 0%, #6CD67B 100%);
     width: 100%;
     position: relative;
@@ -81,26 +80,26 @@ h2 {
     display: table;
     padding-top: 19px;
     font-family: 'Roboto', sans-serif;
-}
+ }
 
-#videos {
+ #videos {
     background: #eec310;
     width: 100%;
     position: relative;
     display: table;
     padding-top: 19px;
     font-family: 'Roboto', sans-serif;
-}
+ }
 
-#contact {
+ #contact {
     background: linear-gradient(#12c427 0%, #be03fc 100%);
     width: 100%;
     position: relative;
     display: table;
     font-family: 'Roboto', sans-serif;
-}
+ }
 
-.menu {
+ .menu {
     font-family: 'Source Sans Pro', sans-serif;
     position: fixed;
     top: 0px;
@@ -108,76 +107,76 @@ h2 {
     width: 100%;
     margin-top: 0px;
     background-color: white;
-}
+ }
 
-.links {
+ .links {
     padding-left: 9px;
     padding-right: 9px;
     font-family: cursive;
     font-size: 20px;
     display: inline;
     
-}
+ }
 
-.links:hover {
+ .links:hover {
     font-size: 25px;
     text-decoration: underline;
-}
+ }
 
-.items {
+ .items {
     font-size: 30px; 
     color: black;   
-}
+ }
 
-.items:hover {
+ .items:hover {
   background-color: dodgerblue;  
-}
+ }
 
-#viewc {
+ #viewc {
     color: lightgreen;
-}
+ }
 
-.contact_1 a{
+ .contact_1 a{
     color: white;
     text-shadow: none;
     text-decoration: none;
-}
+ }
 
-.contact_1 h3{
+ .contact_1 h3{
     display: inline;
-}
+ }
 
-#smenu{
+ #smenu{
     background-color:deeppink;
-}
+ }
 
-#version{
+ #version{
     font-size: small;
-}
+ }
 
-#copy{
+ #copy{
     font-size: small;
-}
+ }
 
-.youtube_button{
+ .youtube_button{
     color: crimson;
-}
+ }
 
-.list{
+ .list{
     color: lightgreen;
-}
+ }
 
-.banner{
+ .banner{
     color:#000000;
     background-color: #15c5e8;
-}
+ }
 
 
-#videos h3{
+ #videos h3{
      font-size: 40px;
-}
+ }
 
-.iframe-container{
+ .iframe-container{
     position: relative;
     width: 100%;
     padding-bottom: 50.25%; 
@@ -195,7 +194,7 @@ h2 {
       font-size: 20px;
   }
 
-p{
+    p{
   font-family: 'Roboto', sans-serif;
   }
 
@@ -211,20 +210,30 @@ p{
 
   #about p{
     color: mediumslateblue;
-}
+ }
 
-#hobbies p{
+ #hobbies p{
     color: lime;
-}
+ }
 
-#skills p{
+ #skills p{
     color:blue;
-}
+ }
 
-#videos h3{
+ #videos h3{
     color:crimson;
-}
+ }
 
-h2{
+ h2{
     font-weight: bold;
-}
+ }
+ 
+ #img_coding{
+     height: 65%;
+     width: 65%;
+ }
+
+ #img_rubiks{
+     height: 35%;
+     width: 35%;
+ }
