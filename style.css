@@ -26,7 +26,7 @@
  }
 
  h1 {
-    text-shadow: 2px 2px #6bfc03;
+    text-shadow: 2px 2px silver;
     font-size: 50px;
  }
 
@@ -72,7 +72,7 @@
     font-family: 'Roboto', sans-serif;
  }
 
- #work {
+ #projects {
     background: linear-gradient(#68D9FF 0%, #6CD67B 100%);
     width: 100%;
     position: relative;
@@ -129,7 +129,7 @@
  }
 
  .items:hover {
-  background-color: dodgerblue;  
+    background-color: dodgerblue;  
  }
 
  #viewc {
@@ -171,9 +171,8 @@
     background-color: #15c5e8;
  }
 
-
  #videos h3{
-     font-size: 40px;
+    font-size: 40px;
  }
 
  .iframe-container{
@@ -181,32 +180,34 @@
     width: 100%;
     padding-bottom: 50.25%; 
     height: 0;
-  }
+ }
   .iframe-container iframe{
     position: absolute;
     top:0;
     left: 0;
     width: 100%;
     height: 100%;
-  }
+ }
 
   #videos a{
-      font-size: 20px;
-  }
+    font-size: 20px;
+    color: blue;
+    text-decoration: underline;
+ }
 
-    p{
-  font-family: 'Roboto', sans-serif;
-  }
+  p{
+    font-family: 'Roboto', sans-serif;
+ }
 
   .contact_items{
-      padding-bottom: 10px;
-  }
+    padding-bottom: 10px;
+ }
 
   section {
-      border-width: 2px;
-      border-style:solid;
-      border-color: black;
-  }
+    border-width: 2px;
+    border-style:solid;
+    border-color: black;
+ }
 
   #about p{
     color: mediumslateblue;
@@ -229,11 +230,11 @@
  }
  
  #img_coding{
-     height: 65%;
-     width: 65%;
+    height: 65%;
+    width: 65%;
  }
 
  #img_rubiks{
-     height: 35%;
-     width: 35%;
+    height: 35%;
+    width: 35%;
  }
