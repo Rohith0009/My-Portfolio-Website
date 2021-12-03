@@ -119,17 +119,12 @@
  }
 
  .links:hover {
-    font-size: 25px;
     text-decoration: underline;
  }
 
  .items {
     font-size: 30px; 
     color: black;   
- }
-
- .items:hover {
-    background-color: dodgerblue;  
  }
 
  #viewc {
@@ -191,8 +186,11 @@
 
   #videos a{
     font-size: 20px;
-    color: blue;
-    text-decoration: underline;
+    color: black;
+ }
+
+ #videos a:hover{
+   text-decoration: underline;
  }
 
   p{
@@ -238,3 +236,8 @@
     height: 35%;
     width: 35%;
  }
+
+ .contact_label:hover {
+   font-size: 25px;
+   text-decoration: underline;
+}
