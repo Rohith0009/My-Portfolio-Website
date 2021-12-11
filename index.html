@@ -14,32 +14,35 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">    
 </head>
 
 <body>
     <div id="Home"></div>
-    <nav class="navbar-inverse my_nav_bar">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
-                <span class="icon-bar"> </span>
-                <span class="icon-bar"> </span>
-                <span class="icon-bar"> </span>
-            </button>
-            <a class="navbar-brand"> My Portfolio Website </a>
-        </div>
-        <div class="collapse navbar-collapse" id="mynavbar">
-            <ul class="nav navbar-nav">
-                <li> <a href="#Home"> Home &nbsp;<i class="fas fa-home"></i> </a> </li>
-                <li> <a href="#about"> About Me &nbsp;<i class="fas fa-user"></i> </a> </li>
-                <li> <a href="#hobbies"> Hobbies &nbsp;<i class="fas fa-biking"></i> </a> </li>
-                <li> <a href="#skills"> Skills &nbsp;<i class="fas fa-snowboarding"></i> </a> </li>
-                <li> <a href="#projects"> Projects &nbsp;<i class="fas fa-folder-open"></i> </a> </li>
-                <li> <a href="#videos"> Videos &nbsp;<i class="fas fa-video"></i> </a> </li>
-                <li> <a href="#contact"> Contact &nbsp;<i class="fas fa-id-card"></i> </a> </li>
-            </ul>
-        </div>
-    </nav>
-
+        
+        <nav class="navbar-inverse my_nav_bar" id="menu-bar-nav">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                    <span class="icon-bar"> </span>
+                    <span class="icon-bar"> </span>
+                    <span class="icon-bar"> </span>
+                </button>
+    
+                <a class="navbar-brand"> My Portfolio Website </a>
+            </div>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="nav navbar-nav">
+                    <li> <a href="#Home"> Home &nbsp;<i class="fas fa-home"></i> </a> </li>
+                    <li> <a href="#about"> About Me &nbsp;<i class="fas fa-user"></i> </a> </li>
+                    <li> <a href="#hobbies"> Hobbies &nbsp;<i class="fas fa-biking"></i> </a> </li>
+                    <li> <a href="#skills"> Skills &nbsp;<i class="fas fa-snowboarding"></i> </a> </li>
+                    <li> <a href="#projects"> Projects &nbsp;<i class="fas fa-folder-open"></i> </a> </li>
+                    <li> <a href="#videos"> Videos &nbsp;<i class="fas fa-video"></i> </a> </li>
+                    <li> <a href="#contact"> Contact &nbsp;<i class="fas fa-id-card"></i> </a> </li>
+                </ul>
+            </div>
+        </nav>
+    
     <div class="banner">
         <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">
             *Completely Made By Rohith M*
@@ -48,16 +51,30 @@
     </div>
 
     <section id="home-s">
-        <br> <br>
-
-        <img src="1.jpg" id="profileimg">
-        <h1> I am <br> <span id="name"> Rohith M </span> </h1>
-
-
+        <div class="wrapper"> 
+            <img src="1.jpg" id="profileimg">
+            <h1> Rohith M </h1>
+            <h3 id="dev-1"> I'm a  </h3>
+            <span> <h3 id="dev-2" class="animate__animated animate__bounce animate__slow animate__infinite"> Developer </h3> </span>
+             <div class="box">
+             <div></div>
+             <div></div>
+             <div></div>
+             <div></div>
+             <div></div>
+             <div></div>
+             <div></div>
+             <div></div>
+             <div></div>
+             <div></div>
+             </div>
+        </div>
+        
     </section>
+
     <div class="line"> </div>
     <section id="about">
-        <h2> About Me </h2>
+        <h2 class="animate__animated animate__pulse animate__slow animate__infinite"> About Me </h2>
 
         <p class="content-para">My name is Rohith M and I Live in Bangalore. I am Studying in 6<sup>th</sup> Grade ICSE in Bangalore International
         Academy. I Like to do Coding And I have made many Apps and Websites. I was Born On January 9 2010 At Andhra Pradesh, India. 
@@ -67,9 +84,9 @@
 
 
     <section id="hobbies">
-        <h2> My Hobbies </h2>
+        <h2 class="animate__animated animate__pulse animate__slow animate__infinite"> My Hobbies </h2>
         <center> 
-        <img src="coding.jpg" class="img-responsive" id="img_coding">  
+        <img src="https://camo.githubusercontent.com/c1dcb74cc1c1835b1d716f5051499a2814c683c806b15f04b0eba492863703e9/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f3733303730332f73637265656e73686f74732f363538313234332f6176656e746f2e676966" class="img-responsive" id="gif_coding">  
 </center>
         <p class="content-para"> My hobby is Coding and programming in my free time. Whenever I get free time, I turn on my computer and think what apps
             I can make Then I Open the coding platform and start coding. When I am bored, I start making YouTube videos on coding.
@@ -80,9 +97,9 @@
     <div class="line"> </div>
 
     <section id="skills">  
-        <h2> My Skills </h2>
+        <h2 class="animate__animated animate__pulse animate__slow animate__infinite"> My Skills </h2>
 <center> 
-    <img src="rubiks_cube.png" class="img-responsive" id="img_rubiks">      
+    <img src="https://i.pinimg.com/originals/f7/b6/74/f7b6747017eeab17151d333f584eeb83.gif" class="img-responsive" id="gif_rubiks">      
 </center>
         
 
@@ -95,7 +112,7 @@
     <div class="line"> </div>
 
     <section id="projects">
-        <h2> My Projects </h2>
+        <h2 class="animate__animated animate__pulse animate__slow animate__infinite"> My Projects </h2>
         <ul class="list">
             <li class="items"> <a href="https://rohithwhitehatjr.github.io/About-Windows-10/" target="_blank"> About Windows 10       </a> </li>
             <li class="items"> <a href="https://rohithwhitehatjr.github.io/Musical-Demo/"     target="_blank"> Musical Demo           </a> </li>
@@ -107,27 +124,27 @@
 
     <div class="line"> </div>
     <section id="videos">
-        <h2> My Videos </h2>
+        <h2 class="animate__animated animate__pulse animate__slow animate__infinite"> My Videos </h2>
         
-        <h3 class="i-frame_heading" style="font-size: xx-large;"> 1. Introduction To HTML, CSS And JS | Part 2 </h3>
+        <h3 class="i-frame_heading animate__animated animate__flipInX animate__slow animate__infinite" style="font-size: xx-large;"> 1. Introduction To HTML, CSS And JS | Part 2 </h3>
         <div class="iframe-container ">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/X8pL0302-Wc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <br>
         
-        <h3 class="i-frame_heading" style="font-size: xx-large;"> 2. Introduction To HTML, CSS And JS | Part 1 </h3>
+        <h3 class="i-frame_heading animate__animated animate__flipInX animate__slow animate__infinite" style="font-size: xx-large;"> 2. Introduction To HTML, CSS And JS | Part 1 </h3>
         <div class="iframe-container">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/W8oR-GJYGes" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <br>
 
-        <h3 class="i-frame_heading" style="font-size: xx-large;"> 3. Creating A Chat App Through Realtime Database </h3>
+        <h3 class="i-frame_heading animate__animated animate__flipInX animate__slow animate__infinite" style="font-size: xx-large;"> 3. Creating A Chat App Through Realtime Database </h3>
         <div class="iframe-container">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/8TLiR3KlJQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <br>
 
-        <h3 class="i-frame_heading" style="font-size: xx-large;"> 4. Creating a ChatBot Using DialogFlow | Part 2 </h3>
+        <h3 class="i-frame_heading animate__animated animate__flipInX animate__slow animate__infinite" style="font-size: xx-large;"> 4. Creating a ChatBot Using DialogFlow | Part 2 </h3>
         <div class="iframe-container">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/5hTnNDumg7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
@@ -142,7 +159,7 @@
     <div class="line"> </div>
 
     <section id="contact">
-        <h2> Contacts </h2>
+        <h2 class="animate__animated animate__pulse animate__slow animate__infinite"> Contacts </h2>
         <div class="contact_1">
             <div class="contact_items"> <a href="mailto:rohithmerala@gmail.com"       target="_blank"> <i class="fas fa-envelope fa-lg">       </i> &nbsp; &nbsp; <h3 class="contact_label"> rohithmerala@gmail.com </h3> </a> <br> </div>
             <div class="contact_items"> <a href="https://github.com/RohithWhitehatjr" target="_blank"> <i class="fab fa-github fa-lg">         </i> &nbsp; &nbsp; <h3 class="contact_label"> @RohithWhitehatjr      </h3> </a> <br> </div>
