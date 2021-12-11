@@ -1,4 +1,7 @@
 body{
     text-align: center;
     background-color: lightgreen;
+    font-size: +20px;
+    background: linear-gradient(90deg, skyblue 0%, red 100%)
+    
 }

@@ -1,6 +1,7 @@
 body{
     text-align: center;
-    background-color: lightskyblue;
+    background: linear-gradient(90deg, #1d9bf0 0%, #f0cc94 100%);
+    font-size: +18px;
 }
 
 .items{
@@ -11,4 +12,18 @@ body{
     background-color: #000000;
     width: 70px;
     margin: 8px auto;
+}
+
+img{
+height: 15px;
+width: 15px;
+margin-left: 100px;
+}
+
+ul{
+list-style: none;
+}
+
+li{
+    margin-bottom: 5px;
 }
