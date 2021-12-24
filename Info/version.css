@@ -1,12 +1,13 @@
-body{
+body {
     text-align: center;
     background: linear-gradient(90deg, #1d9bf0 0%, #f0cc94 100%);
     font-size: +18px;
 }
 
-.items{
+.items {
     text-align: left;
 }
+
 .line {
     height: 6px;
     background-color: #000000;
@@ -14,16 +15,16 @@ body{
     margin: 8px auto;
 }
 
-img{
-height: 15px;
-width: 15px;
-margin-left: 100px;
+img {
+    height: 15px;
+    width: 15px;
+    margin-left: 100px;
 }
 
-ul{
-list-style: none;
+ul {
+    list-style: none;
 }
 
-li{
+li {
     margin-bottom: 5px;
 }
