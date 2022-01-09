@@ -25,6 +25,8 @@
     border-color: black;
     border-width: 2px;
     margin-top: 95px;
+    box-shadow: 0 0 1rem 1rem skyblue;
+    z-index: 99999;
  }
 
  p {
@@ -90,7 +92,7 @@
  }
 
  #contact {
-    background: linear-gradient(#12c427 0%, #be03fc 100%);
+    background: linear-gradient(90deg,red 0%, blue 100%);
     width: 100%;
     position: relative;
     display: table;
@@ -236,8 +238,8 @@
  }
 
  #gif_rubiks {
-    height: 30%;
-    width: 30%;
+    width: 380px;
+    aspect-ratio: 1 / 1;
  }
 
  .contact_label:hover {
@@ -251,7 +253,26 @@
 
  #menu-bar-nav {
     background-color: skyblue;
+ } 
+
+ ::selection{
+    background-color: black;
+    color: white;
  }
+
+ img::selection{
+   background-color: #3390ff;
+   color: white;
+ }
+
+ iframe::selection{
+   background-color: #3390ff;
+   color: white;
+ }
+
+ ul {
+   list-style: none;
+}
 
  /*Home Animation*/
  .wrapper {
@@ -343,6 +364,31 @@
 
  /*Home Animation Ends*/
 
- ul {
-    list-style: none;
+/*Scroll Bar Start*/
+
+::-webkit-scrollbar {
+   width: 1.5em;
+   height: 1em;
+ }
+ 
+ ::-webkit-scrollbar-track {
+   background: transparent;
+   border-radius: 100vw;
+   margin-block: 0.5em;
+ }
+ 
+ ::-webkit-scrollbar-thumb {
+   background: linear-gradient(red, blue);
+   border: 0.25em solid white;
+   border-radius: 100vw;
+ }
+ 
+ ::-webkit-scrollbar-thumb:hover {
+   background: hsl(120 100% 10% / 1);
+ }
+
+ @supports (scrollbar-color: lightgreen DarkGreen){
+    * {
+       scrollbar-color: hsl(120 100% 20% / 1) hsl(120 75% 50% / 1);
+    }
  }
