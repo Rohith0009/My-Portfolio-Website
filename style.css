@@ -1,0 +1,394 @@
+ .my_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+ }
+
+ body {
+    text-align: center;
+    align-items: center;
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: transparent;
+ }
+
+ .line {
+    height: 6px;
+    background-color: #000000;
+    width: 70px;
+    margin: 8px auto;
+ }
+
+ #profileimg {
+    margin-bottom: 50px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    margin-top: 95px;
+    box-shadow: 0 0 1rem 1rem skyblue;
+    z-index: 99999;
+ }
+
+ p {
+    font-size: 30px;
+    font-family: cursive;
+ }
+
+ h2 {
+    font-size: 50px;
+ }
+
+ #home-s {
+    height: 721px;
+    position: relative;
+    color: white;
+    padding-top: 0%;
+ }
+
+ #about {
+    background: linear-gradient(#ff8f6b 0%, #dddddd 100%);
+    display: table;
+    position: relative;
+    padding-top: 19px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+ }
+
+ #hobbies {
+    background: linear-gradient(90deg, #5662f6 0%, #90ee90 100%);
+    position: relative;
+    display: table;
+    padding-top: 19px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+ }
+
+ #skills {
+    background: linear-gradient(90deg, #03fc94 0%, #fc6703 100%);
+    position: relative;
+    display: table;
+    padding-top: 19px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+ }
+
+ #projects {
+    background: linear-gradient(#68D9FF 0%, #6CD67B 100%);
+    width: 100%;
+    position: relative;
+    align-content: center;
+    display: table;
+    padding-top: 19px;
+    font-family: 'Roboto', sans-serif;
+ }
+
+ #videos {
+    background: #eec310;
+    width: 100%;
+    position: relative;
+    display: table;
+    padding-top: 19px;
+    font-family: 'Roboto', sans-serif;
+ }
+
+ #contact {
+    background: linear-gradient(90deg,red 0%, blue 100%);
+    width: 100%;
+    position: relative;
+    display: table;
+    font-family: 'Roboto', sans-serif;
+ }
+
+ .menu {
+    font-family: 'Source Sans Pro', sans-serif;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    margin-top: 0px;
+    background-color: white;
+ }
+
+ .links {
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: cursive;
+    font-size: 20px;
+    display: inline;
+
+ }
+
+ .links:hover {
+    text-decoration: underline;
+ }
+
+ .items {
+    font-size: 30px;
+    color: black;
+ }
+
+ #viewc {
+    color: lightgreen;
+ }
+
+ .contact_1 a {
+    color: white;
+    text-shadow: none;
+    text-decoration: none;
+ }
+
+ .contact_1 h3 {
+    display: inline;
+ }
+
+ #smenu {
+    background-color: deeppink;
+ }
+
+ #version {
+    font-size: small;
+ }
+
+ #copy {
+    font-size: small;
+ }
+
+ .youtube_button {
+    color: crimson;
+ }
+
+ .list {
+    color: lightgreen;
+ }
+
+ .banner {
+    color: #000000;
+    background-color: #15c5e8;
+ }
+
+ #videos h3 {
+    font-size: 40px;
+ }
+
+ .iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 50.25%;
+    height: 0;
+ }
+
+ .iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+ }
+
+ #videos a {
+    font-size: 20px;
+    color: black;
+ }
+
+ #videos a:hover {
+    text-decoration: underline;
+ }
+
+ p {
+    font-family: 'Roboto', sans-serif;
+ }
+
+ .contact_items {
+    padding-bottom: 10px;
+ }
+
+ section {
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    scroll-behavior: smooth;
+ }
+
+ #about p {
+    color: mediumslateblue;
+ }
+
+ #hobbies p {
+    color: white;
+ }
+
+ #skills p {
+    color: blue;
+ }
+
+ #videos h3 {
+    color: crimson;
+ }
+
+ h2 {
+    font-weight: bold;
+ }
+
+ #gif_coding {
+    height: 40%;
+    width: 40%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+ }
+
+ #gif_rubiks {
+    width: 380px;
+    aspect-ratio: 1 / 1;
+ }
+
+ .contact_label:hover {
+    font-size: 25px;
+    text-decoration: underline;
+ }
+
+ #menu-bar-nav a {
+    color: #000000;
+ }
+
+ #menu-bar-nav {
+    background-color: skyblue;
+ } 
+
+ ::selection{
+    background-color: black;
+    color: white;
+ }
+
+ img::selection{
+   background-color: #3390ff;
+   color: white;
+ }
+
+ iframe::selection{
+   background-color: #3390ff;
+   color: white;
+ }
+
+ ul {
+   list-style: none;
+}
+
+ /*Home Animation*/
+ .wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: linear-gradient(90deg, rgba(2, 0, .6, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+ }
+
+ .box div {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    background-color: transparent;
+    border: 6px solid rgba(255, 255, 255, 0.8);
+ }
+
+ .box div:nth-child(1) {
+    top: 12%;
+    left: 42%;
+    animation: animate 10s linear infinite;
+ }
+
+ .box div:nth-child(2) {
+    top: 70%;
+    left: 50%;
+    animation: animate 7s linear infinite;
+ }
+
+ .box div:nth-child(3) {
+    top: 17%;
+    left: 6%;
+    animation: animate 9s linear infinite;
+ }
+
+ .box div:nth-child(4) {
+    top: 20%;
+    left: 60%;
+    animation: animate 10s linear infinite;
+ }
+
+ .box div:nth-child(5) {
+    top: 67%;
+    left: 10%;
+    animation: animate 6s linear infinite;
+ }
+
+ .box div:nth-child(6) {
+    top: 80%;
+    left: 70%;
+    animation: animate 12s linear infinite;
+ }
+
+ .box div:nth-child(7) {
+    top: 60%;
+    left: 80%;
+    animation: animate 15s linear infinite;
+ }
+
+ .box div:nth-child(8) {
+    top: 32%;
+    left: 25%;
+    animation: animate 16s linear infinite;
+ }
+
+ .box div:nth-child(9) {
+    top: 90%;
+    left: 25%;
+    animation: animate 9s linear infinite;
+ }
+
+ .box div:nth-child(10) {
+    top: 20%;
+    left: 80%;
+    animation: animate 5s linear infinite;
+ }
+
+ @keyframes animate {
+    0% {
+       transform: scale(0) translateY(0) rotate(0);
+    }
+
+    100% {
+       transform: scale(1.3) translateY(-90px) rotate(360deg);
+       opacity: 0%;
+    }
+ }
+
+ /*Home Animation Ends*/
+
+/*Scroll Bar Start*/
+
+::-webkit-scrollbar {
+   width: 1.5em;
+   height: 1em;
+ }
+ 
+ ::-webkit-scrollbar-track {
+   background: transparent;
+   border-radius: 100vw;
+   margin-block: 0.5em;
+ }
+ 
+ ::-webkit-scrollbar-thumb {
+   background: linear-gradient(red, blue);
+   border: 0.25em solid white;
+   border-radius: 100vw;
+ }
+ 
+ ::-webkit-scrollbar-thumb:hover {
+   background: hsl(120 100% 10% / 1);
+ }
+
+ @supports (scrollbar-color: lightgreen DarkGreen){
+    * {
+       scrollbar-color: hsl(120 100% 20% / 1) hsl(120 75% 50% / 1);
+    }
+ }
