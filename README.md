@@ -12,7 +12,7 @@ The Information Banner Is Where You Can Get All The Important Information About 
 ![Banner](https://i.ibb.co/W0QqL9Q/Screenshot-2022-01-18-204923.png)
 
 ## Live Chat
-With The Help Of The Live Chat Feature You Can Chat With Me In Realtime. You Can Access It By Clicking On The Chat Icon In The Bottom Right Corner. It is Provided With The Help Of A Service Called Tidio. The Below Image Represents How The Live Chat Feature Looks Like!
+With The Help Of The Live Chat Feature You Can Chat With Me In Realtime. You Can Access It By Clicking On The Chat Icon In The Bottom Right Corner. It is Provided With The Help Of A Service Called Tidio. The Below Image Represents How The Live Chat Feature Looks Like!<br>
 ![Live Chat](https://i.ibb.co/94wBktC/Screenshot-2022-01-18-205408-1.png)
 
 ## Home Section
