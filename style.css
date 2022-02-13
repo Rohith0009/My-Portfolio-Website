@@ -1,5 +1,5 @@
 :root {
-  --default_font_family: "Roboto", sans-serif;
+  --default_font_family: "Inter", sans-serif;
   --section_padding_top: 19px;
 }
 
@@ -11,17 +11,14 @@ body {
   background: transparent;
 }
 
-h2 {
+.heading {
   font-size: 50px;
-}
-
-h2 {
-  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  color: black;
 }
 
 p {
   font-size: 30px;
-  font-family: var(--default_font_family);
 }
 
 ul {
@@ -59,6 +56,7 @@ section {
 
 .contact_div a {
   color: white;
+  text-shadow: none;
   text-decoration: none;
 }
 
@@ -100,7 +98,8 @@ section {
 }
 
 #home-s {
-  height: 721px;
+  /* height: 721px; */
+  height: 92vh;
   position: relative;
   color: white;
   padding-top: 0%;
@@ -108,49 +107,44 @@ section {
 
 #About {
   background: linear-gradient(#ff8f6b 0%, #dddddd 100%);
-  width: 100%;
   padding-top: var(--section_padding_top);
   font-family: var(--default_font_family);
 }
 
 #Hobbies {
   background: linear-gradient(90deg, #5662f6 0%, #90ee90 100%);
-  width: 100%;
   padding-top: var(--section_padding_top);
   font-family: var(--default_font_family);
 }
 
 #Skills {
   background: linear-gradient(90deg, #03fc94 0%, #fc6703 100%);
-  width: 100%;
   padding-top: var(--section_padding_top);
   font-family: var(--default_font_family);
 }
 
 #Projects {
   background: linear-gradient(#68d9ff 0%, #6cd67b 100%);
-  width: 100%;
   padding-top: var(--section_padding_top);
   font-family: var(--default_font_family);
 }
 
 #Videos {
   background: #eec310;
-  width: 100%;
   padding-top: var(--section_padding_top);
   font-family: var(--default_font_family);
 }
 
 #Contact {
   background: linear-gradient(90deg, red 0%, blue 100%);
-  width: 100%;
+  height: 270px;
   font-family: var(--default_font_family);
 }
 
 .my_nav_bar {
   position: sticky;
   top: 0;
-  z-index: 99999;
+  z-index: 9999;
 }
 
 #menu-bar-nav a {
