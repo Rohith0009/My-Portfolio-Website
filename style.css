@@ -4,21 +4,19 @@
 }
 
 body {
-  text-align: center;
-  align-items: center;
   max-width: 100%;
   overflow-x: hidden;
-  background: transparent;
 }
 
 .heading {
   font-size: 50px;
   font-family: "Roboto", sans-serif;
-  color: black;
+  color: var(--gray-9);
 }
 
 p {
-  font-size: 30px;
+  font-size: var(--font-size-5);
+  font-weight: var(--font-weight-5);
 }
 
 ul {
@@ -27,7 +25,8 @@ ul {
 
 section {
   border: 2px solid black;
-  scroll-behavior: smooth;
+  border-left: 0px;
+  border-right: 0px;
 }
 
 .contact_div h3 {
@@ -35,34 +34,33 @@ section {
 }
 
 #Videos h3 {
-  font-size: 40px;
+  font-size: var(--font-size-8);
 }
 
 #Videos h3 {
-  color: crimson;
+  color: var(--red-6);
 }
 
 #About p {
-  color: mediumslateblue;
+  color: var(--indigo-7);
 }
 
 #Hobbies p {
-  color: white;
+  color: var(--blue-9);
 }
 
 #Skills p {
-  color: blue;
+  color: var(--blue-8);
 }
 
 .contact_div a {
-  color: white;
   text-shadow: none;
   text-decoration: none;
 }
 
 #Videos a {
-  font-size: 20px;
-  color: black;
+  font-size: var(--font-size-3);
+  color: var(--gray-9);
   font-weight: bold;
 }
 
@@ -70,9 +68,14 @@ section {
   text-decoration: underline;
 }
 
-.projects_items {
-  font-size: 30px;
-  color: black;
+.projects_items a {
+  font-size: var(--font-size-5);
+  color: var(--green-4);
+  text-decoration: none;
+}
+
+.projects_items:hover {
+  text-decoration: underline;
 }
 
 .contact_items {
@@ -97,74 +100,94 @@ section {
   aspect-ratio: 1 / 1;
 }
 
+.banner {
+  color: var(--gray-9);
+  background-color: #15c5e8;
+}
+
+#marquee {
+  font-family: var(--font-sans);
+  font-weight: var(--font-weight-6);
+}
+
+.contact_label {
+  font-size: var(--font-size-4);
+}
+
+.contact_label:hover {
+  font-size: 27px;
+  text-decoration: underline;
+}
+
+/* Section Code */
 #home-s {
-  /* height: 721px; */
   height: 92vh;
   position: relative;
-  color: white;
+  color: var(--gray-0);
   padding-top: 0%;
 }
 
 #About {
-  background: linear-gradient(#ff8f6b 0%, #dddddd 100%);
+  background: var(--gradient-25);
   padding-top: var(--section_padding_top);
   font-family: var(--default_font_family);
 }
 
 #Hobbies {
-  background: linear-gradient(90deg, #5662f6 0%, #90ee90 100%);
+  background: var(--gradient-4);
   padding-top: var(--section_padding_top);
   font-family: var(--default_font_family);
 }
 
 #Skills {
-  background: linear-gradient(90deg, #03fc94 0%, #fc6703 100%);
+  background: var(--gradient-5);
   padding-top: var(--section_padding_top);
   font-family: var(--default_font_family);
 }
 
 #Projects {
-  background: linear-gradient(#68d9ff 0%, #6cd67b 100%);
+  background: var(--gradient-7);
   padding-top: var(--section_padding_top);
   font-family: var(--default_font_family);
 }
 
 #Videos {
-  background: #eec310;
+  background: var(--gradient-14);
   padding-top: var(--section_padding_top);
   font-family: var(--default_font_family);
 }
 
 #Contact {
-  background: linear-gradient(90deg, red 0%, blue 100%);
+  background: var(--gradient-9);
   height: 270px;
   font-family: var(--default_font_family);
 }
 
-.my_nav_bar {
+/* Navbar Code */
+.navbar-nav a {
+  color: var(--gray-9);
+  font-size: var(--font-size-1);
+  text-decoration: none;
+  margin-right: 13px;
+  font-family: var(--font-sans);
+}
+
+.navbar {
+  background-color: skyblue;
   position: sticky;
   top: 0;
   z-index: 9999;
 }
 
-#menu-bar-nav a {
-  color: #000000;
+.navbar-brand {
+  color: var(--gray-9);
 }
 
-#menu-bar-nav {
-  background-color: skyblue;
+.navbar-brand:hover {
+  color: var(--gray-9);
 }
 
-.banner {
-  color: #000000;
-  background-color: #15c5e8;
-}
-
-.contact_label:hover {
-  font-size: 25px;
-  text-decoration: underline;
-}
-
+/* Iframe Code */
 .iframe-container {
   position: relative;
   width: 100%;
@@ -183,20 +206,20 @@ section {
 /*Item Selection*/
 ::selection {
   background-color: black;
-  color: white;
+  color: var(--gray-0);
 }
 
 img::selection {
   background-color: #3390ff;
-  color: white;
+  color: var(--gray-0);
 }
 
 iframe::selection {
   background-color: #3390ff;
-  color: white;
+  color: var(--gray-0);
 }
 
-/*Scroll Bar*/
+/*Scroll Bar Code*/
 
 ::-webkit-scrollbar {
   width: 1.5em;
@@ -225,7 +248,7 @@ iframe::selection {
   }
 }
 
-/*Home Animation*/
+/*Home Animation Code*/
 .wrapper {
   position: absolute;
   width: 100%;

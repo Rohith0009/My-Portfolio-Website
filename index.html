@@ -20,7 +20,9 @@
       <meta name="twitter:description" content="The My Portfolio Website is a Amazing🚀 Website About Me Rohith M!!" />
       <meta name="twitter:image" content="Profile_Pic.png" />
       <!-- Link Tags -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+      <link rel="stylesheet" href="https://unpkg.com/open-props" />
+      <link rel="stylesheet" href="https://unpkg.com/open-props/normalize.min.css" />
       <link rel="stylesheet" href="style.css" />
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
       <link rel="icon" href="Portfolio_icon.png" />
@@ -29,242 +31,242 @@
       <link rel="icon" href="Portfolio_icon.png" />
       <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto&display=swap" rel="stylesheet" />
       <!-- Script Tags -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
       <script src="main.js"></script>
-      <script src="//code.tidio.co/bo7ojrr3a3sjwj3r8wtpg8llxeyvhw0m.js" async></script>
+      <script src="//code.tidio.co/bo7ojrr3a3sjwj3r8wtpg8llxeyvhw0m.js" defer></script>
       <script src="https://kit.fontawesome.com/6fb54d94e0.js" crossorigin="anonymous"></script>
     </head>
 
     <body>
-      <!-- Menu Bar Code -->
-      <nav class="navbar-inverse my_nav_bar" id="menu-bar-nav">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
-            <span class="icon-bar"> </span>
-            <span class="icon-bar"> </span>
-            <span class="icon-bar"> </span>
-          </button>
+      <div class="">
+        <center>
+          <div id="Home"></div>
+          <!-- Menu Bar Code -->
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand"><b>My Portfolio Website</b></a>
+              <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav">
+                  <li class="nav-link">
+                    <a href="#Home" class="nc"> Home <i class="fa-solid fa-house-chimney fa-beat fa-sm"></i> </a>
+                  </li>
+                  <li class="nav-link">
+                    <a href="#About" class="nc"> About Me <i class="fa-solid fa-user fa-beat fa-sm"></i> </a>
+                  </li>
+                  <li class="nav-link">
+                    <a href="#Hobbies" class="nc"> Hobbies <i class="fa-solid fa-laptop-code fa-beat fa-sm"> </i> </a>
+                  </li>
+                  <li class="nav-link">
+                    <a href="#Skills" class="nc"> Skills <i class="fa-solid fa-trophy fa-beat fa-sm"></i> </a>
+                  </li>
+                  <li class="nav-link">
+                    <a href="#Projects" class="nc"> Projects <i class="fa-solid fa-folder-open fa-beat fa-sm"> </i> </a>
+                  </li>
+                  <li class="nav-link">
+                    <a href="#Videos" class="nc"> Videos <i class="fa-solid fa-video fa-beat fa-sm"></i> </a>
+                  </li>
+                  <li class="nav-link">
+                    <a href="#Contact" class="nc"> Contact <i class="fa-solid fa-address-card fa-beat fa-sm"></i> </a>
+                  </li>
+                </div>
+              </div>
+            </div>
+          </nav>
 
-          <a class="navbar-brand"> My Portfolio Website </a>
-        </div>
-        <div class="collapse navbar-collapse" id="mynavbar">
-          <ul class="nav navbar-nav">
-            <li>
-              <a href="#Home" class="nc"> Home &nbsp; <i class="fa-solid fa-house-chimney fa-beat"> </i> </a>
-            </li>
-            <li>
-              <a href="#About" class="nc"> About Me &nbsp; <i class="fa-solid fa-user fa-beat"> </i> </a>
-            </li>
-            <li>
-              <a href="#Hobbies" class="nc"> Hobbies &nbsp; <i class="fa-solid fa-laptop-code fa-beat"> </i> </a>
-            </li>
-            <li>
-              <a href="#Skills" class="nc"> Skills &nbsp; <i class="fa-solid fa-trophy fa-beat"></i> </a>
-            </li>
-            <li>
-              <a href="#Projects" class="nc"> Projects &nbsp; <i class="fa-solid fa-folder-open fa-beat"> </i> </a>
-            </li>
-            <li>
-              <a href="#Videos" class="nc"> Videos &nbsp; <i class="fa-solid fa-video fa-beat"> </i> </a>
-            </li>
-            <li>
-              <a href="#Contact" class="nc"> Contact &nbsp; <i class="fa-solid fa-address-card fa-beat"> </i> </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+          <!-- Banner Code -->
+          <div class="banner">
+            <marquee id="marquee" onmouseover="this.stop();" onmouseout="this.start();"> *Completely Made By Rohith M* </marquee>
+          </div>
 
-      <!-- Banner Code -->
-      <div class="banner">
-        <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();"> *Completely Made By Rohith M* </marquee>
+          <!-- Main Content -->
+          <main id="main-content">
+            <!-- Home Section -->
+            <section id="home-s">
+              <div class="wrapper">
+                <img src="Profile_Pic.png" id="profileimg" style="border-radius: 50%" width="275px" />
+                <h1>Rohith M</h1>
+                <h3 id="dev-1">I'm a</h3>
+                <span>
+                  <h3 id="dev-2" class="animate__animated animate__bounce animate__slow animate__infinite">Developer</h3>
+                </span>
+                <div class="box">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+              </div>
+            </section>
+
+            <!-- About Section -->
+            <section id="About">
+              <h2 class="animate__animated animate__pulse animate__slow animate__infinite heading">About Me</h2>
+
+              <p class="content-para">
+                Hello👋 My Name Is Rohith M, I am A Young Developer I Love To Create Apps And Websites On My Own. I Live In Bangalore, India And I Am Studying in 6<sup>th</sup> Grade ICSE in Bangalore International Academy. I was Born On January 9
+                2010 At Andhra Pradesh, India.
+              </p>
+            </section>
+
+            <!-- Hobbies Section -->
+            <section id="Hobbies">
+              <h2 class="animate__animated animate__pulse animate__slow animate__infinite heading">My Hobbies</h2>
+              <center>
+                <img src="Hobby_gif.gif" class="img-responsive" id="gif_coding" />
+              </center>
+              <p class="content-para">
+                My hobby is Coding and programming in my free time. Whenever I get free time, I turn on my computer and think what apps I can make Then I Open the coding platform and start coding. When I am bored, I start making YouTube videos on
+                coding. I learned coding when I was 10-year-old. I know some coding languages like HTML, JS, CSS, I use some coding platforms like Visual Studio, CodePen and Thunkable.
+              </p>
+            </section>
+
+            <!-- Skills Section -->
+            <section id="Skills">
+              <h2 class="animate__animated animate__pulse animate__slow animate__infinite heading">My Skills</h2>
+              <center>
+                <img src="Rubiks_Gif.gif" class="img-responsive" id="gif_rubiks" />
+              </center>
+
+              <p class="content-para">
+                One Of my Skills Are that i Can solve a 3X3 Rubiks Cube Very Fast. I love solving Rubiks Cubes. I First Learnt how to solve a Rubiks Cube When I Was 10-Years-Old. My Fastest Cube Solving Record Till Now is 1 min 16 sec. I have made
+                more Than 1000+ Solves.
+              </p>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="Projects">
+              <h2 class="animate__animated animate__pulse animate__slow animate__infinite heading">My Projects</h2>
+              <ul>
+                <li class="projects_items"><a href="https://rohithwhitehatjr.github.io/GlitchyFi/" target="_blank"> GlitchyFi </a></li>
+                <li class="projects_items"><a href="https://rohithwhitehatjr.github.io/Music-Player/" target="_blank"> Music Player </a></li>
+                <li class="projects_items"><a href="https://rohithwhitehatjr.github.io/Pinger/" target="_blank"> Pinger </a></li>
+                <li class="projects_items"><a href="https://rohithwhitehatjr.github.io/About-Windows-10/" target="_blank"> About Windows 10 </a></li>
+                <li class="projects_items"><a href="https://rohithwhitehatjr.github.io/Basic-Calculator/" target="_blank"> Basic Calculator </a></li>
+              </ul>
+            </section>
+
+            <!-- Videos Section -->
+            <section id="Videos">
+              <h2 class="animate__animated animate__pulse animate__slow animate__infinite heading">My Videos</h2>
+
+              <h3 class="i-frame_heading animate__animated animate__flipInX animate__slow animate__infinite" style="font-size: xx-large">1. Introduction To HTML, CSS And JS | Part 2</h3>
+              <div class="iframe-container">
+                <iframe src="https://www.youtube.com/embed/X8pL0302-Wc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <br />
+
+              <h3 class="i-frame_heading animate__animated animate__flipInX animate__slow animate__infinite" style="font-size: xx-large">2. Introduction To HTML, CSS And JS | Part 1</h3>
+              <div class="iframe-container">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/W8oR-GJYGes"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <br />
+
+              <h3 class="i-frame_heading animate__animated animate__flipInX animate__slow animate__infinite" style="font-size: xx-large">3. Creating A Chat App Through Realtime Database</h3>
+              <div class="iframe-container">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/8TLiR3KlJQw"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <br />
+
+              <h3 class="i-frame_heading animate__animated animate__flipInX animate__slow animate__infinite" style="font-size: xx-large">4. Creating a ChatBot Using DialogFlow | Part 2</h3>
+              <div class="iframe-container">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/5hTnNDumg7U"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <br />
+
+              <a href="https://www.youtube.com/channel/UC8Zx1CqdlBFz2Aovv7OI11Q" target="_blank"> Click Here To View All The Videos In My Channel </a>
+              <br />
+              <a href="https://www.youtube.com/channel/UC8Zx1CqdlBFz2Aovv7OI11Q?sub_confirmation=1" target="_blank"> Click Here To Subscribe to My Channel </a>
+              <br />
+              <br />
+            </section>
+
+            <!-- Contact Section -->
+            <section id="Contact">
+              <h2 class="animate__animated animate__pulse animate__slow animate__infinite heading" style="color: black">Contacts</h2>
+              <div class="contact_div">
+                <div class="contact_items">
+                  <a href="mailto:rohithmerala@gmail.com" target="_blank">
+                    <span style="color: limegreen"><i class="fa-solid fa-envelope fa-xl"> </i></span> &nbsp;
+                    <h3 class="contact_label" style="color: limegreen">rohithmerala@gmail.com</h3>
+                  </a>
+                  <br />
+                </div>
+                <div class="contact_items">
+                  <a href="https://github.com/RohithWhitehatjr" target="_blank">
+                    <span style="color: black"><i class="fa-brands fa-github fa-xl"></i></span> &nbsp;
+                    <h3 class="contact_label" style="color: black">@RohithWhitehatjr</h3>
+                  </a>
+                  <br />
+                </div>
+                <div class="contact_items">
+                  <a href="https://discord.gg/bkpZymmXyA" target="_blank">
+                    <span style="color: #5662f6"><i class="fa-brands fa-discord fa-xl"></i></span> &nbsp;
+                    <h3 class="contact_label" style="color: #5662f6">Rohith M#0709</h3>
+                  </a>
+                  <br />
+                </div>
+                <div class="contact_items">
+                  <a href="https://twitter.com/RohithM0009" target="_blank">
+                    <span style="color: #1da1f2"><i class="fa-brands fa-twitter fa-xl"></i></span> &nbsp;
+                    <h3 class="contact_label" style="color: #1da1f2">RohithM0009</h3>
+                  </a>
+                  <br />
+                </div>
+                <div class="contact_items">
+                  <a href="https://t.me/Rohith0009" target="_blank">
+                    <span style="color: #1a91cd"><i class="fa-brands fa-telegram fa-xl"></i></span> &nbsp;
+                    <h3 class="contact_label" style="color: #1a91cd">Rohith0009</h3>
+                  </a>
+                  <br />
+                </div>
+              </div>
+            </section>
+
+            <a id="about_bt" href="Info/about.html" target="_blank" style="text-decoration: underline"> About </a>
+            <!-- Extra Content -->
+            <script type="text/javascript">
+              $(".nc").click(function () {
+                $(".navbar-collapse").collapse("hide");
+              });
+            </script>
+            <!-- ***End Of Code*** -->
+          </main>
+        </center>
       </div>
-
-      <!-- Main Content -->
-      <main id="main-content">
-        <div id="Home"></div>
-        <!-- Home Section -->
-        <section id="home-s">
-          <div class="wrapper">
-            <img src="Profile_Pic.png" id="profileimg" style="border-radius: 50%" width="275px" />
-            <h1>Rohith M</h1>
-            <h3 id="dev-1">I'm a</h3>
-            <span>
-              <h3 id="dev-2" class="animate__animated animate__bounce animate__slow animate__infinite">Developer</h3>
-            </span>
-            <div class="box">
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
-          </div>
-        </section>
-
-        <!-- About Section -->
-        <section id="About">
-          <h2 class="animate__animated animate__pulse animate__slow animate__infinite heading">About Me</h2>
-
-          <p class="content-para">
-            Hello👋 My Name Is Rohith M, I am A Young Developer I Love To Create Apps And Websites On My Own. I Live In Bangalore, India And I Am Studying in 6<sup>th</sup> Grade ICSE in Bangalore International Academy. I was Born On January 9 2010
-            At Andhra Pradesh, India.
-          </p>
-        </section>
-
-        <!-- Hobbies Section -->
-        <section id="Hobbies">
-          <h2 class="animate__animated animate__pulse animate__slow animate__infinite heading">My Hobbies</h2>
-          <center>
-            <img src="Hobby_gif.gif" class="img-responsive" id="gif_coding" />
-          </center>
-          <p class="content-para">
-            My hobby is Coding and programming in my free time. Whenever I get free time, I turn on my computer and think what apps I can make Then I Open the coding platform and start coding. When I am bored, I start making YouTube videos on coding.
-            I learned coding when I was 10-year-old. I know some coding languages like HTML, JS, CSS, I use some coding platforms like Visual Studio, CodePen and Thunkable.
-          </p>
-        </section>
-
-        <!-- Skills Section -->
-        <section id="Skills">
-          <h2 class="animate__animated animate__pulse animate__slow animate__infinite heading">My Skills</h2>
-          <center>
-            <img src="Rubiks_Gif.gif" class="img-responsive" id="gif_rubiks" />
-          </center>
-
-          <p class="content-para">
-            One Of my Skills Are that i Can solve a 3X3 Rubiks Cube Very Fast. I love solving Rubiks Cubes. I First Learnt how to solve a Rubiks Cube When I Was 10-Years-Old. My Fastest Cube Solving Record Till Now is 1 min 16 sec. I have made more
-            Than 1000+ Solves.
-          </p>
-        </section>
-
-        <!-- Projects Section -->
-        <section id="Projects">
-          <h2 class="animate__animated animate__pulse animate__slow animate__infinite heading">My Projects</h2>
-          <ul>
-            <li class="projects_items"><a href="https://rohithwhitehatjr.github.io/About-Windows-10/" target="_blank"> About Windows 10 </a></li>
-            <li class="projects_items"><a href="https://rohithwhitehatjr.github.io/Music-Player/" target="_blank"> Music Player </a></li>
-            <li class="projects_items"><a href="https://rohithwhitehatjr.github.io/Thomas-Edision/" target="_blank"> Thomas Edision Website </a></li>
-            <li class="projects_items"><a href="https://rohithwhitehatjr.github.io/Basic-Calculator/" target="_blank"> Basic Calculator </a></li>
-            <li class="projects_items"><a href="https://rohithwhitehatjr.github.io/Math-Quiz/" target="_blank"> Math Quiz </a></li>
-          </ul>
-        </section>
-
-        <!-- Videos Section -->
-        <section id="Videos">
-          <h2 class="animate__animated animate__pulse animate__slow animate__infinite heading">My Videos</h2>
-
-          <h3 class="i-frame_heading animate__animated animate__flipInX animate__slow animate__infinite" style="font-size: xx-large">1. Introduction To HTML, CSS And JS | Part 2</h3>
-          <div class="iframe-container">
-            <iframe src="https://www.youtube.com/embed/X8pL0302-Wc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-          <br />
-
-          <h3 class="i-frame_heading animate__animated animate__flipInX animate__slow animate__infinite" style="font-size: xx-large">2. Introduction To HTML, CSS And JS | Part 1</h3>
-          <div class="iframe-container">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/W8oR-GJYGes"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <br />
-
-          <h3 class="i-frame_heading animate__animated animate__flipInX animate__slow animate__infinite" style="font-size: xx-large">3. Creating A Chat App Through Realtime Database</h3>
-          <div class="iframe-container">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/8TLiR3KlJQw"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <br />
-
-          <h3 class="i-frame_heading animate__animated animate__flipInX animate__slow animate__infinite" style="font-size: xx-large">4. Creating a ChatBot Using DialogFlow | Part 2</h3>
-          <div class="iframe-container">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/5hTnNDumg7U"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <br />
-
-          <a href="https://www.youtube.com/channel/UC8Zx1CqdlBFz2Aovv7OI11Q" target="_blank"> Click Here To View All The Videos In My Channel </a>
-          <br />
-          <a href="https://www.youtube.com/channel/UC8Zx1CqdlBFz2Aovv7OI11Q?sub_confirmation=1" target="_blank"> Click Here To Subscribe to My Channel </a>
-          <br />
-          <br />
-        </section>
-
-        <!-- Contact Section -->
-        <section id="Contact">
-          <h2 class="animate__animated animate__pulse animate__slow animate__infinite heading" style="color: black">Contacts</h2>
-          <div class="contact_div">
-            <div class="contact_items">
-              <a href="mailto:rohithmerala@gmail.com" target="_blank">
-                <span style="color: lime"><i class="fa-solid fa-envelope fa-xl"> </i></span> &nbsp;
-                <h3 class="contact_label" style="color: lime">rohithmerala@gmail.com</h3>
-              </a>
-              <br />
-            </div>
-            <div class="contact_items">
-              <a href="https://github.com/RohithWhitehatjr" target="_blank">
-                <span style="color: white"><i class="fa-brands fa-github fa-xl"></i></span> &nbsp;
-                <h3 class="contact_label" style="color: white">@RohithWhitehatjr</h3>
-              </a>
-              <br />
-            </div>
-            <div class="contact_items">
-              <a href="https://discord.gg/bkpZymmXyA" target="_blank">
-                <span style="color: #5662f6"><i class="fa-brands fa-discord fa-xl"></i></span> &nbsp;
-                <h3 class="contact_label" style="color: #5662f6">Rohith M#0709</h3>
-              </a>
-              <br />
-            </div>
-            <div class="contact_items">
-              <a href="https://twitter.com/RohithM0009" target="_blank">
-                <span style="color: #1da1f2"><i class="fa-brands fa-twitter fa-xl"></i></span> &nbsp;
-                <h3 class="contact_label" style="color: #1da1f2">RohithM0009</h3>
-              </a>
-              <br />
-            </div>
-            <div class="contact_items">
-              <a href="https://t.me/Rohith0009" target="_blank">
-                <span style="color: #1a91cd"><i class="fa-brands fa-telegram fa-xl"></i></span> &nbsp;
-                <h3 class="contact_label" style="color: #1a91cd">Rohith0009</h3>
-              </a>
-              <br />
-            </div>
-          </div>
-        </section>
-
-        <a id="about_bt" href="Info/about.html" target="_blank" style="text-decoration: underline"> About </a>
-
-        <!-- Extra Content -->
-        <script type="text/javascript">
-          $(".nc").click(function () {
-            $(".navbar-collapse").collapse("hide");
-          });
-        </script>
-        <!-- ***End Of Code*** -->
-      </main>
     </body>
   </html>
 </html>
