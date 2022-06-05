@@ -1,0 +1,90 @@
+body {
+  background: linear-gradient(90deg, #1d9bf0 0%, #f0cc94 100%);
+  font-size: +18px;
+  background-color: black;
+}
+
+main{
+  text-align: center;
+}
+
+#home{
+text-align: left;
+}
+
+.items {
+  text-align: left;
+}
+
+a {
+  color: black;
+}
+
+.line {
+  height: 6px;
+  background-color: #000000;
+  width: 70px;
+  margin: 8px auto;
+}
+
+img {
+  height: 15px;
+  width: 15px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 10px;
+  font-weight: 550;
+  font-size: 20px
+}
+
+/*Scroll Bar Code*/
+
+::-webkit-scrollbar {
+  width: 1.5em;
+  height: 1em;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 100vw;
+  margin-block: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(red, blue);
+  border: 0.25em solid white;
+  border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(120 100% 10% / 1);
+}
+
+@supports (scrollbar-color: lightgreen DarkGreen) {
+  * {
+    scrollbar-color: hsl(120 100% 20% / 1) hsl(120 75% 50% / 1);
+  }
+}
+
+/*Item Selection*/
+::selection {
+  background-color: black;
+  color: var(--gray-0);
+}
+
+img::selection {
+  background-color: #3390ff;
+  color: var(--gray-0);
+}
+
+iframe::selection {
+  background-color: #3390ff;
+  color: var(--gray-0);
+}
+
+/***End Of Code***/

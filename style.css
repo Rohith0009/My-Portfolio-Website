@@ -6,6 +6,7 @@
 body {
   max-width: 100%;
   overflow-x: hidden;
+  background-color: black;
 }
 
 .heading {
@@ -27,6 +28,8 @@ section {
   border: 2px solid black;
   border-left: 0px;
   border-right: 0px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .contact_div h3 {
@@ -93,6 +96,7 @@ section {
   width: 600px;
   border: 2px solid black;
   aspect-ratio: 4 / 3;
+  box-shadow: 10px 10px 5px gray;
 }
 
 #gif_rubiks {
@@ -161,6 +165,7 @@ section {
   background: var(--gradient-9);
   height: 270px;
   font-family: var(--default_font_family);
+  border-bottom-width: 0px !important;
 }
 
 /* Navbar Code */
@@ -168,7 +173,7 @@ section {
   color: var(--gray-9);
   font-size: var(--font-size-1);
   text-decoration: none;
-  margin-right: 13px;
+  margin-right: 19px;
   font-family: var(--font-sans);
 }
 
@@ -207,6 +212,11 @@ section {
 ::selection {
   background-color: black;
   color: var(--gray-0);
+}
+
+.footer-text::selection {
+  background-color: white;
+  color: black;
 }
 
 img::selection {
@@ -334,6 +344,67 @@ iframe::selection {
     transform: scale(1.3) translateY(-90px) rotate(360deg);
     opacity: 0%;
   }
+}
+
+/*Footer Code*/
+footer {
+  background: #111;
+  height: auto;
+  width: 100vw;
+  font-family: "Open Sans";
+  padding-top: 40px;
+  color: #fff;
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+  margin-right: 30px;
+}
+.socials li {
+  margin: 0 10px;
+}
+.socials a {
+  text-decoration: none;
+  color: #fff;
+}
+.socials a i {
+  font-size: 1.1rem;
+  transition: color 0.4s ease;
+}
+.socials a:hover i {
+  color: aqua;
+}
+
+.footer-bottom {
+  background: #000;
+  width: 100vw;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+.footer-bottom p {
+  font-size: 14px;
 }
 
 /***End Of Code***/
