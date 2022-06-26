@@ -36,23 +36,20 @@ section {
   display: inline;
 }
 
-#Videos h3 {
+#videos-s h3 {
+  color: var(--red-6);
   font-size: var(--font-size-8);
 }
 
-#Videos h3 {
-  color: var(--red-6);
-}
-
-#About p {
+#about-s p {
   color: var(--indigo-7);
 }
 
-#Hobbies p {
+#hobbies-s p {
   color: var(--blue-9);
 }
 
-#Skills p {
+#skills-s p {
   color: var(--blue-8);
 }
 
@@ -61,24 +58,35 @@ section {
   text-decoration: none;
 }
 
-#Videos a {
+#videos-s a {
   font-size: var(--font-size-3);
   color: var(--gray-9);
   font-weight: bold;
+  text-decoration: none;
+  background-size: 0% 3px;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(90deg, red, blue);
+  background-position: left bottom;
+  transition: background-size 400ms ease;
 }
 
-#Videos a:hover {
-  text-decoration: underline;
+#videos-s a:hover {
+  background-size: 100% 3px;
 }
 
 .projects_items a {
   font-size: var(--font-size-5);
   color: var(--green-4);
   text-decoration: none;
+  background-size: 0% 3px;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(90deg, red, blue);
+  background-position: left bottom;
+  transition: background-size 400ms ease;
 }
 
-.projects_items:hover {
-  text-decoration: underline;
+.projects_items a:hover {
+  background-size: 100% 3px;
 }
 
 .contact_items {
@@ -116,11 +124,15 @@ section {
 
 .contact_label {
   font-size: var(--font-size-4);
+  background-size: 0% 3px;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(90deg, red, blue);
+  background-position: left bottom;
+  transition: background-size 400ms ease;
 }
 
 .contact_label:hover {
-  font-size: 27px;
-  text-decoration: underline;
+  background-size: 100% 3px;
 }
 
 /* Section Code */
@@ -134,65 +146,41 @@ section {
   padding-right: 0;
 }
 
-#About {
+#about-s {
   background: var(--gradient-25);
   padding-top: var(--section_padding_top);
   font-family: var(--default_font_family);
 }
 
-#Hobbies {
+#hobbies-s {
   background: var(--gradient-4);
   padding-top: var(--section_padding_top);
   font-family: var(--default_font_family);
 }
 
-#Skills {
+#skills-s {
   background: var(--gradient-5);
   padding-top: var(--section_padding_top);
   font-family: var(--default_font_family);
 }
 
-#Projects {
+#projects-s {
   background: var(--gradient-7);
   padding-top: var(--section_padding_top);
   font-family: var(--default_font_family);
 }
 
-#Videos {
+#videos-s {
   background: var(--gradient-14);
   padding-top: var(--section_padding_top);
   font-family: var(--default_font_family);
 }
 
-#Contact {
+#contact-s {
   background: var(--gradient-9);
   height: 270px;
   font-family: var(--default_font_family);
   border-bottom-width: 0px !important;
-}
-
-/* Navbar Code */
-.navbar-nav a {
-  color: var(--gray-9);
-  font-size: var(--font-size-1);
-  text-decoration: none;
-  margin-right: 19px;
-  font-family: var(--font-sans);
-}
-
-.navbar {
-  background-color: skyblue;
-  position: sticky;
-  top: 0;
-  z-index: 9999;
-}
-
-.navbar-brand {
-  color: var(--gray-9);
-}
-
-.navbar-brand:hover {
-  color: var(--gray-9);
 }
 
 /* Iframe Code */
@@ -354,7 +342,7 @@ footer {
   background: #111;
   height: auto;
   width: 100vw;
-  font-family: "Open Sans";
+  font-family: var(--default_font_family);
   padding-top: 40px;
   color: #fff;
 }
@@ -367,7 +355,7 @@ footer {
 }
 .footer-content h3 {
   font-size: 1.8rem;
-  font-weight: 400;
+  font-weight: 600;
   text-transform: capitalize;
   line-height: 3rem;
 }
@@ -376,6 +364,7 @@ footer {
   margin: 10px auto;
   line-height: 28px;
   font-size: 14px;
+  font-weight: 800;
 }
 .socials {
   list-style: none;
@@ -408,6 +397,151 @@ footer {
 }
 .footer-bottom p {
   font-size: 14px;
+  font-weight: 500;
+}
+
+/*Navbar Code*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #24252a;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.brand {
+  margin-right: auto;
+  text-decoration: none;
+  color: #edf0f1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.brand:hover {
+  text-decoration: none;
+  color: #edf0f1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+}
+
+.nav__links a,
+.cta,
+.overlay__content a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+.nav__links li {
+  padding: 0px 20px;
+  margin-bottom: -15px;
+}
+
+.nav__links li a {
+  transition: color 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #0088a9;
+}
+
+.cta {
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease 0s;
+}
+
+.cta:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+/* Mobile Nav */
+
+.menu {
+  display: none;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: #24252a;
+  overflow-x: hidden;
+  transition: width 0.5s ease 0s;
+}
+
+.overlay--active {
+  width: 100%;
+}
+
+.overlay__content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay a {
+  padding: 15px;
+  font-size: 36px;
+  display: block;
+  transition: color 0.3s ease 0s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #0088a9;
+}
+.overlay .close {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  color: #edf0f1;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px;
+  }
+  .overlay .close {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .nav__links,
+  .cta {
+    display: none;
+  }
+  .menu {
+    display: initial;
+  }
 }
 
 /***End Of Code***/
