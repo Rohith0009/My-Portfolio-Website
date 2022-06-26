@@ -223,7 +223,7 @@ iframe::selection {
 
 /*Scroll Bar Code*/
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 1.5em;
   height: 1em;
 }
@@ -248,7 +248,7 @@ iframe::selection {
   * {
     scrollbar-color: hsl(120 100% 20% / 1) hsl(120 75% 50% / 1);
   }
-}
+} */
 
 /*Home Animation Code*/
 .wrapper {
