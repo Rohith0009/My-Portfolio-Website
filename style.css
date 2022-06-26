@@ -4,6 +4,7 @@
 }
 
 body {
+  width: 120% !important;
   overflow-x: hidden;
   background-color: black;
 }
