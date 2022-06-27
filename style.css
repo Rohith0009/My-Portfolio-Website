@@ -575,6 +575,16 @@ header {
   .overlay .close {
     color: black !important;
   }
+  footer{
+    background: white;
+    color: black;
+  }
+  .socials a{
+    color: black;
+  }
+  .footer-bottom{
+    background: white;
+  }
 }
 
 /***End Of Code***/
