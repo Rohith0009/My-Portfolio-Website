@@ -23,8 +23,9 @@ p {
   font-weight: var(--font-weight-5);
 }
 
-ul {
-  list-style: none;
+ul,
+li {
+  list-style: none !important;
 }
 
 section {
