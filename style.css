@@ -550,4 +550,30 @@ header {
   }
 }
 
+/*Dark Mode */
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: white !important;
+  }
+  header {
+    background-color: white !important;
+    border-right: 2px solid black;
+  }
+  .brand,
+  .brand:hover {
+    color: black !important;
+  }
+  .nav__links a,
+  .cta,
+  .overlay__content a {
+    color: black !important;
+  }
+  .overlay {
+    background-color: white !important;
+  }
+  .overlay .close {
+    color: black !important;
+  }
+}
+
 /***End Of Code***/
