@@ -140,6 +140,7 @@ section {
 
 /* Section Code */
 #home-s {
+  margin-top: 70px;
   height: 92vh;
   position: relative;
   color: var(--gray-0);
@@ -417,7 +418,8 @@ header {
   align-items: center;
   padding: 30px 10%;
   background-color: #24252a;
-  position: sticky;
+  position: fixed;
+  width: 100% !important;
   top: 0;
   z-index: 1;
 }
