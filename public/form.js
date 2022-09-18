@@ -17,7 +17,7 @@ window.onload = () => {
 const home = document.querySelector(".home");
 
 home.onclick = () => {
-  windows.location = "/index.html";
+  windows.location = "index.html";
 };
 
 // form validation

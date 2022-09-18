@@ -2,7 +2,7 @@ const greeting = document.querySelector(".greeting");
 
 window.onload = () => {
   if (!sessionStorage.name) {
-    location.href = "/admin/public/login.html";
+    location.href = "login.html";
   } else {
     greeting.innerHTML = `hello ${sessionStorage.name}`;
   }
@@ -20,5 +20,5 @@ const home = document.querySelector(".home");
 home.onclick = () => {
   sessionStorage.clear();
   location.reload();
-  windows.location = "/index.html";
+  windows.location = "index.html";
 };
