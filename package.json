@@ -1,18 +1,23 @@
 {
-  "name": "loginform",
+  "dependencies": {
+    "dotenv": "^16.0.2"
+  },
+  "name": "my-portfolio-website",
+  "description": "The My Portfolio Website is a Amazing🚀 Website About Me!!",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "main": "main.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rohith0009/My-Portfolio-Website.git"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.20.0",
-    "express.js": "^1.0.0",
-    "knex": "^2.3.0",
-    "nodemon": "^2.0.20",
-    "pg": "^8.8.0"
-  }
+  "bugs": {
+    "url": "https://github.com/Rohith0009/My-Portfolio-Website/issues"
+  },
+  "homepage": "https://github.com/Rohith0009/My-Portfolio-Website#readme",
+  "keywords": []
 }

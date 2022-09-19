@@ -44,7 +44,8 @@ function my_keydown(e) {
     text = text + "N";
     if (text == "ADMIN"){
       console.log("Login successful");
-      window.location = "/public/home.html";
+      window.location = "/admin/home.html";
+      localStorage.setItem("login", "false");
     }
     else{
       text = ""
