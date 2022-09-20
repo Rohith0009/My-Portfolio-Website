@@ -31,26 +31,15 @@
 
     <body>
       <center>
-<div class="full-screen-container">
-    <div class="login-container">
-      <h1 class="login-title">Admin Login</h1>
-      <form class="form">
-        <div class="input-group success">
-          <label for="email">Email</label>
-          <input type="email" name="email" id="email">
-          <span class="msg">Valid email</span>
-        </div>
+        <button class="home" onclick="home()">Home</button>
+        <div class="form">
+          <h1 class="heading">Admin Login</h1>
+          <div id="status"></div>
 
-        <div class="input-group error">
-          <label for="password">Password</label>
-          <input type="password" name="password" id="password">
-          <span class="msg">Incorrect password</span>
+          <input type="email" placeholder="email" autocomplete="off" class="email" id="email" required />
+          <input type="password" placeholder="password" autocomplete="off" class="password" id="password" required />
+          <button class="submit-btn" onclick="logiin()">log in</button>
         </div>
-
-        <button type="submit" class="login-button">Login</button>
-      </form>
-    </div>
-  </div>
 
         <script src="form.js"></script>
       </center>

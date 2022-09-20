@@ -1,3 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--gradient-4);
+  background-size: cover;
+  background-position: center;
+  font-family: "roboto", sans-serif;
+}
+
+.form {
+  width: 400px;
+  height: auto;
+  color: black;
+  font-family: "roboto", sans-serif;
+}
+
+.home {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  padding: 10px 20px;
+  text-transform: capitalize;
+  font-size: 16px;
+  color: #000;
+  background: none;
+  text-decoration: underline;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
 #status{
   background-color:lightcoral;
   border-radius: 20px;
@@ -7,122 +53,83 @@
   padding: 10px;
 }
 
-*, *::before, *::after {
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-:root {
-  --primary-light-hsl: 200, 100%, 91%;
-  --primary-hsl: 200, 100%, 50%;
-  --primary-dark-hsl: 200, 100%, 6%;
-  --success-hsl: 100, 60%, 50%;
-  --error-hsl: 0, 60%, 50%;
-}
-
-body {
-  margin: 0;
-}
-
-.full-screen-container {
-  background: var(--gradient-4);
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.login-container {
-  --color: hsl(var(--primary-dark-hsl), .7);
-  background-color: var(--color);
-  box-shadow: 0 0 15px 0 var(--color);
-  padding: 40px 30px;
-  width: 80%;
-  max-width: 600px;
-  border-radius: 20px;
-}
-
-.login-title {
-  margin: 0;
-  color: white;
+.heading {
+  opacity: 0;
+  text-transform: capitalize;
   text-align: center;
-  font-size: 2rem;
-  font-weight: normal;
+  font-size: 80px;
+  font-weight: 300;
+  margin-bottom: 50px;
 }
 
-.form {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  margin-top: 40px;
-}
-
-.input-group {
-  display: flex;
-  flex-direction: column;
-  gap: 7px;
-}
-
-.input-group label {
-  color: white;
-  font-weight: lighter;
-}
-
-.input-group input {
-  font-size: 1.25rem;
-  padding: .5em;
-  background-color: hsl(var(--primary-light-hsl), .3);
-  border: none;
-  outline: none;
-  border-radius: .25em;
-  color: white;
-  font-weight: lighter;
-}
-
-.input-group.success input {
-  box-shadow: 0 0 0 1px hsl(var(--success-hsl));
-}
-
-.input-group.error input {
-  box-shadow: 0 0 0 1px hsl(var(--error-hsl));
-}
-
-.input-group input:focus {
-  box-shadow: 0 0 0 1px hsl(var(--primary-hsl));
-}
-
-.input-group .msg {
-  display: none;
-  font-size: .75rem;
-}
-
-.input-group.success .msg,
-.input-group.error .msg {
+input,
+.submit-btn {
+  opacity: 0;
+  width: 80%;
+  height: 35px;
   display: block;
+  margin: 20px auto;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
+  color: #000;
+  padding: 15px;
+  transition: 0.5s;
+  text-transform: capitalize;
 }
 
-.input-group.error .msg {
-  color: hsl(var(--error-hsl));
+input::placeholder {
+  color: #000;
 }
 
-.input-group.success .msg {
-  color: hsl(var(--success-hsl));
+input:focus,
+.submit-btn:hover {
+  background: #000;
+  color: #fff;
 }
 
-.login-button {
-  padding: .5em 1em;
-  font-size: 1.5rem;
-  font-weight: lighter;
-  color: white;
-  background-color: hsl(var(--primary-hsl), .25);
-  border: 1px solid hsl(var(--primary-hsl));
-  border-radius: .25em;
-  outline: none;
+input:focus::placeholder {
+  color: #fff;
+}
+
+.submit-btn {
+  width: auto;
+  padding: 0 20px;
   cursor: pointer;
+  margin: 50px auto 0;
+  opacity: 0;
 }
 
-.login-button:hover,
-.login-button:focus {
-  background-color: hsl(var(--primary-hsl), .4);
+.link {
+  opacity: 0;
+  text-align: center;
+  text-transform: capitalize;
+  color: rgba(37, 37, 37, 0.5);
+  display: block;
+  margin: 30px auto;
+}
+
+.link:hover {
+  color: #000;
+}
+
+.alert-box {
+  position: absolute;
+  top: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 150px;
+  max-width: 90%;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  text-transform: capitalize;
+  background: rgb(255, 119, 119);
+  border-top: 10px solid rgb(255, 37, 37);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: #000;
+  font-family: "roboto", sans-serif;
+  text-align: center;
+  transition: 1s;
 }

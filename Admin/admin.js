@@ -10,14 +10,10 @@ window.onload = () => {
 const logOut = document.querySelector(".logout");
 
 logOut.onclick = () => {
-  sessionStorage.clear();
-  location.reload();
+  localStorage.setItem("login", "false");
+  location.href = "/admin/login.html";
 };
 
-const home = document.querySelector(".home");
-
-home.onclick = () => {
-  sessionStorage.clear();
-  location.reload();
-  windows.location = "/index.html";
+function home() {
+  location.href = "/index.html";
 };

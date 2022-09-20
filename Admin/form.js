@@ -16,14 +16,12 @@ window.onload = () => {
   }
 };
 
-const home = document.querySelector(".home");
-
-home.onclick = () => {
-  windows.location = "/index.html";
+function home() {
+  location.href = "/index.html";
 };
 
 var name = "Rohith M";
-var email = "Rohithmerala@Gmail.Com";
+var email = "rohithmerala@gmail.com";
 var password = "rohithadmin9876";
 
 function logiin() {
