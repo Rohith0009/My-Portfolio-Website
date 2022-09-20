@@ -22,11 +22,18 @@ home.onclick = () => {
   windows.location = "/index.html";
 };
 
-require("dotenv").config();
+var name = "Rohith M";
+var email = "Rohithmerala@Gmail.Com";
+var password = "rohithadmin9876";
 
+function logiin() {
+  t_email = document.getElementById("email").value;
+  t_password = document.getElementById("password").value;
 
-const name = process.env.NAME;
-const email = process.env.EMAIL;
-const password = process.env.PASSWORD;
-console.log(name + email + password);
-
+  if (t_email == email && t_password == password) {
+    localStorage.setItem("login", "true");
+    location.href = "/admin/home.html";
+  } else {
+    document.getElementById("status").innerHTML = "<h4> Please Check Your Email Or Password </h4>";
+  }
+}

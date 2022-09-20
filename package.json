@@ -1,23 +1,6 @@
 {
   "dependencies": {
-    "dotenv": "^16.0.2"
-  },
-  "name": "my-portfolio-website",
-  "description": "The My Portfolio Website is a Amazing🚀 Website About Me!!",
-  "version": "1.0.0",
-  "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Rohith0009/My-Portfolio-Website.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Rohith0009/My-Portfolio-Website/issues"
-  },
-  "homepage": "https://github.com/Rohith0009/My-Portfolio-Website#readme",
-  "keywords": []
+    "dotenv": "^16.0.2",
+    "requirejs": "^2.3.6"
+  }
 }
