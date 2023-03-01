@@ -20,7 +20,6 @@
       <meta name="twitter:description" content="The My Portfolio Website is a Amazing🚀 Website About Me Rohith M!!" />
       <meta name="twitter:image" content="/Images/Profile_Pic.png" />
       <!-- Link Tags -->
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
       <link rel="stylesheet" href="https://unpkg.com/open-props" />
       <link rel="stylesheet" href="style.css" />
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
@@ -30,8 +29,7 @@
       <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet" />
       <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto&display=swap" rel="stylesheet" />
       <!-- Script Tags -->
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="https://cdn.tailwindcss.com"></script>
       <script src="//code.tidio.co/bo7ojrr3a3sjwj3r8wtpg8llxeyvhw0m.js" defer></script>
       <script src="https://kit.fontawesome.com/6fb54d94e0.js" crossorigin="anonymous"></script>
     </head>
@@ -43,7 +41,7 @@
         <header>
           <a class="brand">My Portfolio Website</a>
           <nav>
-            <ul class="nav__links">
+            <ul class="nav__links content-center">
               <li><a href="#About">About Me</a></li>
               <li><a href="#Hobbies">Hobbies</a></li>
               <li><a href="#Skills">Skills</a></li>
@@ -67,83 +65,69 @@
           </div>
         </div>
 
-        <!-- Banner Code -->
-        <div class="banner">
-          <marquee id="marquee" onmouseover="this.stop();" onmouseout="this.start();">Completely Made By Rohith M</marquee>
-        </div>
-
         <!-- Main Content -->
         <main id="main-content">
           <!-- Home Section -->
-          <section id="home-s">
-            <div class="wrapper">
-              <img src="/Images/Profile_Pic.png" id="profileimg" style="border-radius: 50%" width="275px" />
-              <h1>Rohith M</h1>
-              <h3 id="dev-1">I'm a</h3>
+          <section id="home-s" class="pb-0">
+            <canvas id="canv" width="32" height="32"></canvas>
+            <div class="hero">
+              <img src="/Images/Profile_Pic.png" alt="Profile Pic" class="border-2 border-black border-solid w-80 mt-[95px] mb-[50px]" />
+              <h1 class="font-semibold text-4xl">Rohith M</h1>
+              <h3 class="font-medium text-xl">I'm a</h3>
               <span>
-                <h3 id="dev-2" class="animate__animated animate__bounce animate__slow animate__infinite">Developer</h3>
+                <h3 class="animate__animated animate__bounce animate__slow animate__infinite font-medium text-xl">Developer</h3>
                 <span id="About"></span>
               </span>
-              <div class="box">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-              </div>
             </div>
           </section>
 
           <!-- About Section -->
-          <section id="about-s">
+          <section id="about-s" class="bg-gradient-to-r from-yellow-200 via-green-200 to-green-500">
             <h2 class="animate__animated animate__pulse animate__slow animate__infinite heading">About Me</h2>
 
             <p class="content-para">
-              Hello👋 My Name Is Rohith M, I am A Young Developer And Love To Create Apps And Websites On My Own. I Live In Bangalore, India and I Am Studying in 7th Grade ICSE at Bangalore International Academy. I was Born On 9 January
+              Hello👋 My Name Is Rohith M, I am A Young Developer And Love To Create Apps And Websites On My Own. I Live In Bangalore, India and I Am Studying in 7th Grade ICSE at Bangalore
+              International Academy. I was Born On 9 January
               <span id="Hobbies"></span>
             </p>
           </section>
 
           <!-- Hobbies Section -->
-          <section id="hobbies-s">
+          <section id="hobbies-s" class="bg-gradient-to-r from-blue-100 via-blue-300 to-blue-500">
             <h2 class="animate__animated animate__pulse animate__slow animate__infinite heading">My Hobbies</h2>
             <center>
-              <img src="/Images/Hobby_gif.gif" class="img-responsive" id="gif_coding" />
+              <img src="/Images/Hobby_gif.gif" id="gif_coding" />
             </center>
             <p class="content-para">
-              My hobby is coding and programming in my free time. Whenever I get free time, I turn on my computer and think about what apps I can make. Then I Open the coding platform and begin coding. When I am bored, I start making YouTube videos
-              on coding. I learned to code when I was 10-year-old. I know some coding languages like HTML, JS, and CSS. I use some coding platforms like Visual Studio, CodePen, and Thunkable. <span id="ht"></span>
+              My hobby is coding and programming in my free time. Whenever I get free time, I turn on my computer and think about what apps I can make. Then I Open the coding platform and begin
+              coding. When I am bored, I start making YouTube videos on coding. I learned to code when I was 10-year-old. I know some coding languages like HTML, JS, and CSS. I use some coding
+              platforms like Visual Studio, CodePen, and Thunkable. <span id="ht"></span>
               <span id="Skills"></span>
             </p>
           </section>
 
           <!-- Skills Section -->
-          <section id="skills-s">
+          <section id="skills-s" class="bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400">
             <h2 class="animate__animated animate__pulse animate__slow animate__infinite heading"></h2>
             <h2 class="animate__animated animate__pulse animate__slow animate__infinite heading">My Skills</h2>
             <center>
-              <img src="/Images/Rubiks_Gif.gif" class="img-responsive" id="gif_rubiks" />
+              <img src="/Images/Rubiks_Gif.gif" id="gif_rubiks" />
             </center>
 
             <p class="content-para">
-              One Of my Skills Is that I Can solve a 3X3 Rubiks Cube Very Fast. I love solving Rubiks Cubes. I First Learned how to solve a Rubik's Cube When I Was 10-Years-Old. My Fastest Cube Solving Record Till Now is 1 min 16 sec. I have made
-              more Than 1000+ Solves.
+              One Of my Skills Is that I Can solve a 3X3 Rubiks Cube Very Fast. I love solving Rubiks Cubes. I First Learned how to solve a Rubik's Cube When I Was 10-Years-Old. My Fastest Cube
+              Solving Record Till Now is 52 seconds. I have made more Than 1000+ Solves.
               <span id="Projects"></span>
             </p>
           </section>
 
           <!-- Projects Section -->
-          <section id="projects-s">
+          <section id="projects-s" class="bg-gradient-to-r from-green-300 via-yellow-300 to-pink-300">
             <h2 class="animate__animated animate__pulse animate__slow animate__infinite heading">My Projects</h2>
             <ul>
               <li class="projects_items"><a href="https://rohith0009.github.io/GlitchyFi/" target="_blank"> GlitchyFi </a></li>
               <li class="projects_items"><a href="https://rohith0009.github.io/Music-Player/" target="_blank"> Music Player </a></li>
-              <li class="projects_items"><a href="https://rohith0009.github.io/Pinger/" target="_blank"> Pinger </a></li>
+              <li class="projects_items"><a href="https://github.com/Rohith0009/Tic-Tac-Toe/raw/master/installer/Tic%20Tac%20Toe%20Setup.exe" target="_blank"> Tic Tac Toe </a></li>
               <li class="projects_items"><a href="https://rohith0009.github.io/About-Windows-10/" target="_blank"> About Windows 10 </a></li>
               <span id="Videos"></span>
               <li class="projects_items"><a href="https://rohith0009.github.io/Basic-Calculator/" target="_blank"> Basic Calculator </a></li>
@@ -151,38 +135,62 @@
           </section>
 
           <!-- Videos Section -->
-          <section id="videos-s">
+          <section id="videos-s" class="bg-gradient-to-r from-green-200 to-green-500">
             <h2 class="animate__animated animate__pulse animate__slow animate__infinite heading">My Videos</h2>
 
-            <h3 class="i-frame_heading" style="font-size: xx-large">1. Introduction To HTML, CSS And JS | Part 2</h3>
+            <h3 class="i-frame_heading" style="font-size: xx-large">1. Introduction To Python </h3>
             <div class="iframe-container">
-              <iframe src="https://www.youtube.com/embed/X8pL0302-Wc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe
+                src="https://www.youtube.com/embed/2SxwHHacLQ0"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
             </div>
             <br />
             <hr />
 
-            <h3 class="i-frame_heading" style="font-size: xx-large">2. Introduction To HTML, CSS And JS | Part 1</h3>
+            <h3 class="i-frame_heading" style="font-size: xx-large">2. Top 10 VS Code Extensions </h3>
             <div class="iframe-container">
-              <iframe src="https://www.youtube.com/embed/W8oR-GJYGes" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe
+                src="https://www.youtube.com/embed/syzgyy4hU0M"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <br />
+            <hr>
+
+            <h3 class="i-frame_heading" style="font-size: xx-large">3. Introduction To HTML, CSS And JS | Part 2</h3>
+            <div class="iframe-container">
+              <iframe
+                src="https://www.youtube.com/embed/X8pL0302-Wc"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
             </div>
             <br />
             <hr />
 
-            <h3 class="i-frame_heading" style="font-size: xx-large">3. Creating A Chat App Through Realtime Database</h3>
+            <h3 class="i-frame_heading" style="font-size: xx-large">4. Introduction To HTML, CSS And JS | Part 1</h3>
             <div class="iframe-container">
-              <iframe src="https://www.youtube.com/embed/8TLiR3KlJQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe
+                src="https://www.youtube.com/embed/W8oR-GJYGes"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
             </div>
             <br />
             <hr />
-
-            <h3 class="i-frame_heading" style="font-size: xx-large">4. Creating a ChatBot Using DialogFlow | Part 2</h3>
-            <div class="iframe-container">
-              <iframe src="https://www.youtube.com/embed/5hTnNDumg7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <br />
 
             <a href="https://www.youtube.com/channel/UC8Zx1CqdlBFz2Aovv7OI11Q" target="_blank"> Click Here To View All The Videos In My Channel </a>
-            <br />
             <hr />
             <a href="https://www.youtube.com/channel/UC8Zx1CqdlBFz2Aovv7OI11Q?sub_confirmation=1" target="_blank"> Click Here To Subscribe to My Channel </a>
             <br />
